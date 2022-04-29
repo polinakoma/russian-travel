@@ -1,0 +1,28 @@
+.cover__phrase {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .cover__phrase {
+        width: 928px;
+    }
+}
+
+@media screen and (max-width: 965px) {
+    .cover__phrase {
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .cover__phrase {
+        max-width: 288px;
+        font-size: 10px;
+        line-height: 14px;
+    }
+}

@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 28px;
+    margin: 0;
+    max-height: 52px;
+}
+
+@media screen and (max-width: 1200px) {
+    .header {
+        width: 928px;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 965px) {
+    .header {
+        width: 720px;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .header {
+        width: 288px;
+        padding-top: 16px;
+        align-self: center;
+    }
+}
