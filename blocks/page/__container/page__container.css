@@ -1,0 +1,26 @@
+.page__container {
+    max-width: 1184px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .page__container {
+        max-width: 1024px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 965px) {
+    .page__container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .page__container {
+        max-width: 320px;
+    }
+}
