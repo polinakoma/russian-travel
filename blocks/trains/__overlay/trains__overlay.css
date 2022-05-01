@@ -1,6 +1,7 @@
 .trains__overlay {
     width: 1184px;
     height: 740px;
+    box-sizing: border-box;
     margin: 0 auto 92px;
     display: flex;
     flex-direction: column;
@@ -44,11 +45,12 @@
     .trains__overlay {
     width: 1024px;
     height: 640px;
+    box-sizing: border-box;
     background-size: contain;
     }
 }
 
-@media screen and (max-width: 965px) {
+@media screen and (max-width: 1021px) {
     .trains__overlay {
     width: 768px;
     height: 480px;
@@ -57,7 +59,7 @@
     }
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
     .trains__overlay {
     width: 320px;
     height: 200px;
