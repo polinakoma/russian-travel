@@ -1,0 +1,68 @@
+.trains__overlay {
+    width: 1184px;
+    height: 740px;
+    box-sizing: border-box;
+    margin: 0 auto 92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    font-style: normal;
+    background-image: URL(../../../image/last_image.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.trains__overlay::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.trains__overlay:hover::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #2A2C2F;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1200px) {
+    .trains__overlay {
+    width: 1024px;
+    height: 640px;
+    box-sizing: border-box;
+    background-size: contain;
+    }
+}
+
+@media screen and (max-width: 1021px) {
+    .trains__overlay {
+    width: 768px;
+    height: 480px;
+    background-size: contain;
+    margin: 0 auto 88px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .trains__overlay {
+    width: 320px;
+    height: 200px;
+    margin: 0 auto 64px;
+    }
+}

@@ -1,0 +1,16 @@
+.trains__overlay_subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 360px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+    .trains__overlay_subtitle {
+        max-width: 288px;
+        font-size: 14px;
+        line-height: 16px;
+    }  
+}
