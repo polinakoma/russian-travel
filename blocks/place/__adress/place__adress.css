@@ -1,4 +1,4 @@
-.place__link_name {
+.place__adress {
     font-weight: 400; 
     font-style: normal;
     font-size: 18px;
@@ -7,6 +7,6 @@
     text-decoration: underline;
 }
 
-.place__link_name:hover {
+.place__adress:hover {
     opacity: 0.8;
 }

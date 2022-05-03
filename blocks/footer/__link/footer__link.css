@@ -1,4 +1,4 @@
-.footer__info_link {
+.footer__link {
     color: #FFF;
     text-decoration: none;
     font-size: 16px;
@@ -7,12 +7,12 @@
     font-style: normal;
 }
 
-.footer__info_link:hover {
+.footer__link:hover {
     opacity: 0.8;
 }
 
 @media screen and (max-width: 766px) {
-    .footer__info_link {
+    .footer__link {
         font-size: 24px;
         line-height: 24px;
     }
