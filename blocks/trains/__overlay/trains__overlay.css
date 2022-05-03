@@ -29,7 +29,7 @@
     z-index: 0;
 }
 
-.trains__overlay:hover::after {
+.trains__overlay:hover::before {
     opacity: 0.8;
 }
 
